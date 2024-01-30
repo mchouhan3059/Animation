@@ -1,0 +1,192 @@
+<html>
+    <head>
+        <style>
+            @keyframes rotate{
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+            body{
+                background-color: #0e0e26;
+            }
+            .main{
+                width: 480px;
+                height: 480px;
+                margin: 50px auto;
+                position: relative;
+            }
+            .circle1{
+                width: 480px;
+                height: 480px;
+                border-radius: 50%;
+                border: 2px solid white;
+                position: absolute;
+                animation: rotate 8s 0s infinite linear;
+
+            }
+            .circle1dot{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                position: absolute;
+                background-color: azure;
+                left: 149px;
+                animation: rotate 5s 0s infinite linear;
+            }
+            .border{
+                border: 1px solid rgb(171, 170, 170);
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                left: -5px;
+                top: -5px;
+                transform: skew(36deg, 10deg);
+            }
+            .circle2{
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+                position: absolute;
+                top: 40px;
+                left: 40px;
+                border: 2px solid white;
+                animation: rotate 7s 0s infinite linear;
+            }
+            .orangecircle{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: orange;
+                position: absolute;
+                left: 118px;
+            }
+            .circle3{
+                width: 320px;
+                height: 320px;
+                border-radius: 50%;
+                border: 2px solid white;
+                left: 80px;
+                top: 80px;
+                position: absolute;
+                animation: rotate 6s 0s infinite linear;
+
+            }
+            .dot3{
+                width: 20px;
+                height: 20px;
+                background-color: aqua;
+                position: absolute;
+                left: 87px;
+                border-radius: 50%;
+                animation: rotate 5s 0s infinite linear;
+
+            }
+            .circle4{
+                width: 240px;
+                height: 240px;
+                top: 120px;
+                left: 120px;
+                border-radius: 50%;
+                border: 2px solid white;
+                position: absolute;
+                animation: rotate 4s 0s infinite linear;
+                
+            }
+            .bluedot{
+                width: 20px;
+                height: 20px;
+                background-color: blue;
+                border-radius: 50%;
+                position: absolute;
+                left: 51px;
+                animation: rotate 10s 0s infinite linear;
+
+            }
+            .circlewhitedot{
+                width: 5px;
+                height: 5px;
+                background-color: white;
+                position: absolute;
+                border-radius: 50%;
+                top: -10px;
+            }
+            .circle5{
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                border: 2px solid white;
+                top: 150px;
+                left: 150px;
+                position: absolute;
+                animation: rotate 3s 0s infinite linear;
+            }
+            .dot5{
+                width: 20px;
+                height: 20px;
+                background-color: burlywood;
+                border-radius: 50%;
+                position: absolute;
+                left: 33px;
+            }
+            .circle6{
+                width: 120px;
+                height: 120px;
+                border: 2px solid white;
+                position: absolute;
+                border-radius: 50%;
+                left: 180px;
+                top: 180px;
+                animation: rotate 2s 0s infinite linear;
+            }
+            .dot6{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #d91515;
+                left: 15px;
+                position: absolute;
+            }
+            .circle7{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background-color: yellow;
+                position: absolute;
+                top: 205px;
+                left: 205px;
+                box-shadow: 0 0 10px 1px yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="circle1">
+                 <div class="circle1dot"> <div class="border"> </div>
+                </div>
+            </div>
+            <div class="circle2">
+                <div class="orangecircle">
+                </div>
+            </div>
+            <div class="circle3">
+                <div class="dot3"></div>
+            </div>
+            <div class="circle4">
+                <div class="bluedot">
+                    <div class="circlewhitedot"></div>
+                </div>
+            </div>
+            <div class="circle5">
+                <div class="dot5"></div>
+            </div>
+            <div class="circle6">
+                <div class="dot6"></div>
+            </div>
+            <div class="circle7"></div>
+        </div>
+    </body>
+</html>
